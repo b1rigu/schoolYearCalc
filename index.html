@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Whaat</title>
+        <link href="index.css" rel="stylesheet" />
+        <script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
+        <script src="index.js" defer></script>
+    </head>
+    <body>
+        <div class="fullscreen-container">
+            <div class="mt-5">
+                <div class="d-flex">
+                    <div class="date-container">
+                        <h1>1</h1>
+                        <p>Дунд сургуульд орсон он</p>
+                        <select id="selectYear0" name="year" required>
+                            <option value="" disabled selected>Он сонгох</option>
+                        </select>
+                        <p>Их сургуульд орсон он</p>
+                        <select id="selectYear1" name="year" required>
+                            <option value="" disabled selected>Он сонгох</option>
+                        </select>
+                    </div>
+                    <div class="date-container">
+                        <h1>2</h1>
+                        <p>Дунд сургуульд орсон он</p>
+                        <select id="selectYear2" name="year" required>
+                            <option value="" disabled selected>Он сонгох</option>
+                        </select>
+                        <p>Их сургуульд орсон он</p>
+                        <select id="selectYear3" name="year" required>
+                            <option value="" disabled selected>Он сонгох</option>
+                        </select>
+                    </div>
+                </div>
+                <h3>Асуулт</h3>
+                <p>
+                    <b>1.</b> Дээрхи 2 хугацааны хичээлийн дээд болон дунд сургуульд суралцах
+                    цагуудын аль нь их вэ?
+                </p>
+                <p>
+                    <b>2.</b> Хэрэв дунд сургуульдаа сурагч хичээллэх үедээ 7 хоног бүр 4 цагийг
+                    өөрт сонирхолтой хичээл үздэг байсан бол сонирхсон хичээлдээ зарцуулсан цагуудыг
+                    харьцуулна уу?
+                </p>
+                <p>
+                    <b>3.</b> Хэрэв дээд сургуульд оюутан бүр хичээлийн дундуур 1 удаа 8 долоо
+                    хоногийн үйлдвэрлэлийн дадлага хийдэг байсан бол дадлагын цагийн суралцах
+                    хугацаанд нь эзлэх хувийг тус тус олно уу.
+                </p>
+                <button id="calculate-btn">Тооцоолох</button>
+            </div>
+            <div>
+                <canvas id="answerOneTwoChart"></canvas>
+            </div>
+            <div>
+                <canvas id="answerThreeChart"></canvas>
+            </div>
+        </div>
+    </body>
+</html>
